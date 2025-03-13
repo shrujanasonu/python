@@ -1,0 +1,99 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "celsius =float(input(\"temp\"))\n",
+        "faren=(celsius*9/5)+32\n",
+        "print(faren)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "v8JhOnZTbgIz",
+        "outputId": "c0f37e28-80b2-40f7-a3c4-ef6eef715618"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "temp20\n",
+            "68.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "faren=float(input(\"temp\"))\n",
+        "celsious=5/9*(faren-32)\n",
+        "print(celsious)\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ttXb5urEdQhC",
+        "outputId": "44748ecb-ac2c-4e91-b4ef-4839b70865cd"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "temp77\n",
+            "25.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "w=int(input(\"enter your weight\"))\n",
+        "h=float (input(\"enter your height\"))\n",
+        "bmi=w/(h*h)\n",
+        "print(bmi)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ERrSWN8Bekf8",
+        "outputId": "a4861bc1-6408-46a6-def1-dc4b5beb17d7"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your weight45\n",
+            "enter your height135\n",
+            "0.0024691358024691358\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
