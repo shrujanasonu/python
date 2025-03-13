@@ -1,0 +1,105 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "celsius =float(input(\"temp\"))\n",
+        "faren=(celsius*9/5)+32\n",
+        "print(faren)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "v8JhOnZTbgIz",
+        "outputId": "c0f37e28-80b2-40f7-a3c4-ef6eef715618"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "temp20\n",
+            "68.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "faren=float(input(\"temp\"))\n",
+        "celsious=5/9*(faren-32)\n",
+        "print(celsious)\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ttXb5urEdQhC",
+        "outputId": "44748ecb-ac2c-4e91-b4ef-4839b70865cd"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "temp77\n",
+            "25.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "P = float(input(\"Enter the Principal amount: \"))\n",
+        "R = float(input(\"Enter the Rate of Interest per annum: \"))\n",
+        "T = float(input(\"Enter the Time period in years: \"))\n",
+        "\n",
+        "SI = (P * R * T) / 100\n",
+        "\n",
+        "print(f\"Simple Interest = {SI}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2CPoVPcYiQFK",
+        "outputId": "a975e324-0015-40bd-ec69-e4e7ca465683"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the Principal amount: 5555\n",
+            "Enter the Rate of Interest per annum: 33333\n",
+            "Enter the Time period in years: 4\n",
+            "Simple Interest = 7406592.6\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
