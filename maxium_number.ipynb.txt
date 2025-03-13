@@ -1,0 +1,54 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "def max_of_three(a, b, c):\n",
+        "    return max(a, b, c)\n",
+        "\n",
+        "result = max_of_three(10, 25, 15)\n",
+        "print(\"Maximum number is:\", result)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1f9VlDJmpQKr",
+        "outputId": "ac44acb7-e92a-4b3e-c763-3eb7f466a33d"
+      },
+      "execution_count": 69,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Maximum number is: 25\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "ItnwxRQ3veKk"
+      },
+      "execution_count": 63,
+      "outputs": []
+    }
+  ]
+}
